@@ -5,9 +5,9 @@ This illustrates building a shared library (`.so`) in Haskell and calling it fro
 
 I wrote nothing by myself, but read and pasted the code from those articles:
 
-- [Buildings plugins as Haskell shared libs](1)
-- [Building a shared library in Haskell](2)
-- [Using both Python & Haskell with ctypes](3)
+- [Buildings plugins as Haskell shared libs][1]
+- [Building a shared library in Haskell][2]
+- [Using both Python & Haskell with ctypes][3]
 
 I've made sure everything compiles and works as expected on Ubuntu 12.04 x86_64 with GHC 7.4.1
 from standard Ubuntu repositories. Edit `Makefile` if you have another version (there's no autoconf,
